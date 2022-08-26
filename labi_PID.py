@@ -1,7 +1,7 @@
 import javaobj
 import serial
 import socket
-import cv2 # 线程问题
+import cv2 
 import time
 import torch
 import queue 
@@ -444,12 +444,3 @@ except KeyboardInterrupt:
     fig.suptitle('PID Transient Curves of two axes')
     axs[0].plot(t_list, x_error)
     axs[1].plot(t_list, y_error)
-    '''
-    t_list = [i + t_0 for i in t_list]
-    np.save("events/data/t_list.npy", t_list)
-    np.save("events/data/cts.npy", cts)
-    np.save("events/data/xs.npy", xs)
-    np.save("events/data/ys.npy", ys)
-    np.save("events/data/tx.npy", tx)
-    np.save("events/data/ty.npy", ty)
-    '''
