@@ -7,7 +7,7 @@ MPC.py: a class for mpc
 
 Labi_PID.py: implementation of a PID controller
 
-PID: a class for PID from https://github.com/m-lundberg/simple-pid
+PID.py: a class for PID from https://github.com/m-lundberg/simple-pid
 
 CNN_ER_FA.py: CNN from https://github.com/FabianAmherd/CNN_ER_FA
 
