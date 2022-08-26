@@ -19,7 +19,7 @@ servo_test.py: a test of servo control
 
 labi-test.ino: arduino script
 
-big_ds_1_image.pt and big_ds_3_image.pt: Network state-dict
+big_ds_1_image.pt and big_ds_3_image.pt: network state-dicts
 
 warm.pt: some data for warmup
 
