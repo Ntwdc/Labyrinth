@@ -109,7 +109,7 @@ class Runparams():
             self.y_d = self.y1 - self.y_last
             self.t_d = self.timestamp - self.t_last
 
-            self.x_pre = clamp(self.x_last + self.t_d * self.vx_last, (0, self.width))  #撞墙时会丢失
+            self.x_pre = clamp(self.x_last + self.t_d * self.vx_last, (0, self.width)) 
             self.y_pre = clamp(self.y_last + self.t_d * self.vy_last, (0, self.height))
             
             self.is_lost = self.isLost(self.x1, self.x_pre, self.x_last) | self.isLost(self.y1, self.y_pre, self.y_last)
