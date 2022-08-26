@@ -139,34 +139,7 @@ def control():
         tilt_x += x_hori
         tilt_y += y_hori
         print("before com tilt_x:", round(tilt_x,2), "tilt_y:", round(tilt_y,2))
-        '''
-        co = 0.4
-        if params.is_still:
-            if params.is_still_last:
-                compx, compy = comp(params.delta_x, params.delta_y)
-                accumulationy += 2 * co * compy 
-                accumulationx += 2 * co * compx
-        else:
-            if not params.is_still_x:
-                accumulationx = 0.0                   
-            else:
-                if params.is_still_x_last:
-                    accumulationx = accumulationx + co
-            if not params.is_still_y:
-                accumulationy = 0.0                   
-            else:
-                if params.is_still_y_last:
-                    accumulationy = accumulationy + co
-                
-        compensationx = x_direction * (0.0 + accumulationx)
-        compensationy = y_direction * (0.0 + accumulationy)
-        
-        if params.is_still_x and abs(params.x1 - params.x0) > 0:
-            tilt_x = tilt_x + compensationx if params.x1 < params.x0 else tilt_x - compensationx
-        if params.is_still_y and abs(params.y1 - params.y0) > 0:
-            tilt_y = tilt_y + compensationy if params.y1 < params.y0 else tilt_y - compensationy  
-        print("after com tilt_x:", round(tilt_x,2), "tilt_y:", round(tilt_y,2))  
-        '''        
+       
         params.update()
         
         tilt_x = round(tilt_x)
