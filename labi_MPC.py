@@ -331,11 +331,3 @@ except KeyboardInterrupt:
     axs[0].plot(t_list, xre)
     axs[1].plot(t_list, yer)
     axs[1].plot(t_list, yre)
-            
-    t_list = [i + t_0 for i in t_list]
-    np.save("events/data/mpc/t_list.npy", t_list)
-    np.save("events/data/mpc/cts.npy", cts)
-    np.save("events/data/mpc/xs.npy", xs)
-    np.save("events/data/mpc/ys.npy", ys)
-    np.save("events/data/mpc/tx.npy", tx)
-    np.save("events/data/mpc/ty.npy", ty)
