@@ -21,7 +21,7 @@ servo_test.py: a test of servo control
 
 labi-test.ino: arduino script
 
-big_ds_1_image.pt and big_ds_3_image.pt: network state-dicts
+big_ds_1_image.pt and big_ds_3_image.pt: network state-dicts from https://github.com/FabianAmherd/CNN_ER_FA
 
 warm.pt: some data for warmup
 
