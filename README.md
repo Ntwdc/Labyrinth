@@ -1,6 +1,16 @@
 # Labyrinth
 PID controller and MPC controller for a Labyrinth robot
 
+Software: Python 3.9.12, Spyder 5.3.1, java 1.8.0_333, Netbeans 8.2, jAER 2022.07.08
+Hardware: Intel 12700-H, GTX 3060Ti, DAVIS240C, Arduino MKRZERO
+
+
+![1663168306363](https://user-images.githubusercontent.com/39051034/190193648-ea5e93a3-8006-4c22-a607-1b0c329b32e6.jpg)
+
+
+
+Description of files:
+
 Labi_MPC.py: implementation of a mpc controller
 
 MPC.py: a class for mpc
