@@ -6,6 +6,7 @@ Software: Python 3.9.12, Spyder 5.3.1, java 1.8.0_333, Netbeans 8.2, jAER 2022.0
 Hardware: Intel 12700-H, GTX 3060Ti, DAVIS240C, Arduino MKRZERO
 
 
+
 How to use:
 
 Connect the electrical circuit and upload labi-test.ino to the arduino board.
@@ -18,7 +19,7 @@ if a new camera is used, a recalibration is needed and the distortion parameters
 
 Because the input of CNN is three 240*180 images, the image size needs to be adjusted if a different resolution is used. 
 
-![1663168306363](https://user-images.githubusercontent.com/39051034/190193648-ea5e93a3-8006-4c22-a607-1b0c329b32e6.jpg)
+![1663169806195](https://user-images.githubusercontent.com/39051034/190199460-be2bd4d7-7538-4db8-8d43-c49f8973d777.jpg)
 
 
 Description of files:
