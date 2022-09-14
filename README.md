@@ -37,7 +37,7 @@ PID.py: a class for PID from https://github.com/m-lundberg/simple-pid
 
 CNN_ER_FA.py: CNN from https://github.com/FabianAmherd/CNN_ER_FA
 
-labiutils.py: some methods used used in the script
+labiutils.py: some methods used in the script
 
 globals_and_utils.py: some methods used from https://github.com/SensorsINI/joker-network
 
