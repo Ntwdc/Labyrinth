@@ -16,8 +16,6 @@ from params import Runparams
 import labiutils
 from MPC import MPC
 #%%
-x_direction = -1
-y_direction = 1
 width = 240
 height = 180
 port = 7777
