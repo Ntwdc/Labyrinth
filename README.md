@@ -6,8 +6,19 @@ Software: Python 3.9.12, Spyder 5.3.1, java 1.8.0_333, Netbeans 8.2, jAER 2022.0
 Hardware: Intel 12700-H, GTX 3060Ti, DAVIS240C, Arduino MKRZERO
 
 
-![1663168306363](https://user-images.githubusercontent.com/39051034/190193648-ea5e93a3-8006-4c22-a607-1b0c329b32e6.jpg)
+How to use:
 
+Connect the electrical circuit and upload labi-test.ino to the arduino board.
+
+Download jAER and run it in Netbeans. Enable the UdpFramer filter in jAER and set the port number and the buffer size.   
+
+Run Labi_MPC.py or Labi_PID.py in python.
+
+if a new camera is used, a recalibration is needed and the distortion parameters should be modified in Labi_MPC.py and Labi_PID.py
+
+Because the input of CNN is three 240*180 images, the image size needs to be adjusted if a different resolution is used. 
+
+![1663168306363](https://user-images.githubusercontent.com/39051034/190193648-ea5e93a3-8006-4c22-a607-1b0c329b32e6.jpg)
 
 
 Description of files:
