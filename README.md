@@ -2,6 +2,7 @@
 PID controller and MPC controller for a Labyrinth robot
 
 Software: Python 3.9.12, Spyder 5.3.1, java 1.8.0_333, Netbeans 8.2, jAER 2022.07.08
+
 Hardware: Intel 12700-H, GTX 3060Ti, DAVIS240C, Arduino MKRZERO
 
 
