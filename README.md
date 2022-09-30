@@ -11,9 +11,11 @@ How to use:
 
 Connect the electrical circuit and upload labi-test.ino to the arduino board.
 
-Download jAER and run it in Netbeans. Enable the UdpFramer filter in jAER and set the port number and the buffer size.   
+Download jAER and run it in Netbeans. Enable the UdpFramer filter in jAER and set the port number and the buffer size. Set the frame interval to 50ms and the exposure to 11ms. 
 
-Run Labi_MPC.py or Labi_PID.py in python. During running, press ctrl C to stop the program and get the plot.
+Run Labi_MPC.py or Labi_PID.py in python. When running Labi_PID, firstly right click the four corners of the board to do homography and then left click to choose a setpoint. When running Labi_MPC, left click the four corners of the board to do homography.
+
+During running, press ctrl C to stop the program and get the plot.
 
 Some variables that need to be set are list at the beginning of Labi_MPC.py and Labi_PID.py. 
 
@@ -21,6 +23,7 @@ If a new camera is used, a recalibration is needed and the camera parameters sho
 
 Because the input of CNN is three 240*180 images, the image size needs to be adjusted if a different resolution is used. 
 
+![corner](https://user-images.githubusercontent.com/39051034/193290557-3270437d-6297-435c-887c-c751a91c7dd0.jpg)
 
 ![1663169806195](https://user-images.githubusercontent.com/39051034/190199460-be2bd4d7-7538-4db8-8d43-c49f8973d777.jpg)
 
