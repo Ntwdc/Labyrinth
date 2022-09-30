@@ -17,7 +17,7 @@ Run Labi_MPC.py or Labi_PID.py in python. When running Labi_PID, firstly right c
 
 During running, press ctrl C to stop the program and get the plot.
 
-Some variables that need to be set are list at the beginning of Labi_MPC.py and Labi_PID.py. 
+Some variables that need to be set are list at the beginning of Labi_MPC.py and Labi_PID.py. x_hori and y_hori in the control thread should be modified according to the tilts under which the ball can stay balanced.
 
 If a new camera is used, a recalibration is needed and the camera parameters should be modified.
 
